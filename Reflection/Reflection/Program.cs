@@ -5,8 +5,8 @@ using System.Text.Json;
 F f = F.Get(); // Получаем объект F
 
 //// первый запуск вне цикла.
-//CsvSerializer.Serialize(f);
-//JsonSerializer.Serialize(f);
+CsvSerializer.Serialize(f);
+JsonSerializer.Serialize(f);
 
 
 //вызываем сериализацию 100000 для замера времени
